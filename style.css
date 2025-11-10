@@ -1,6 +1,3 @@
-
-git commit -m "first commit"
-
 html, body {
     margin: 0;
     padding: 0;
@@ -14,7 +11,7 @@ h1 {
 }
 
 
-.container>a {
+.nav>a {
     width: 200px;
     /*border: 2px black solid;*/
     padding: 5px;
@@ -31,7 +28,7 @@ h1 {
 
 }
 
-.container {
+.nav {
     display: flex;
     justify-content: center;
     background-color: #016491;
@@ -541,4 +538,18 @@ footer>p {
   background-color: #e31836;
   color: white;
 }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
 
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    
