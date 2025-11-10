@@ -22,10 +22,6 @@ h1 {
     align-content: center;
     font-family: 'Bebas Neue';
     font-size: 20px;
-
-
-
-
 }
 
 .nav {
@@ -37,8 +33,7 @@ h1 {
     width: 100%;
     position: fixed;
     z-index: 99999;
-
-
+    box-sizing: content-box;
 }
 
 #cadastro {
@@ -220,7 +215,7 @@ footer>p {
     height: 45px;
     padding-top: 15px;
     padding-left: 20px;
-
+    box-sizing: content-box;
 }
 
 #linksb {
@@ -505,7 +500,7 @@ footer>p {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  transition: background 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .botao-cadastrar:hover {
@@ -551,5 +546,16 @@ footer>p {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+      }
+
+      .title {
+
+        font-family: 'Bebas Neue';
+        font-size: 18px;
+        margin-top: 125px;
+        margin-bottom: 50px;
+        color: #8b1a1a;
+
+
       }
     
